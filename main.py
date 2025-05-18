@@ -1,16 +1,25 @@
-# This is a sample Python script.
+from library import Library
+from student_file import load_students_from_file
+from fetch_books import get_books_from_api
+from menu import *
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def main():
 
+    books = get_books_from_api("fantasy", 10)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    students = load_students_from_file()
+    library = Library(books=books, students=students)
 
+    # print("\nBook: ")
+    # for book in library.books:
+    #     print(f"{book.title} ({book.author}, {book.release_date}, {book.pages}, {book.total_copies}, {book.available_copies})")
+    #
+    # print("\nStudent: ")
+    # for student in library.students:
+    #     print(f"{student.id} {student.first_name} {student.last_name}")
+    #
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+    show_menu(library)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if __name__ == "__main__":
+    main()
