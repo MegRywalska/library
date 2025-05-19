@@ -1,35 +1,38 @@
+import json
+from dataclasses import asdict
+from typing import List
+
 from student import Student
 
-def load_students_from_file():
-
+def load_students_from_file(json_file='sample_students.json'):
     students = []
 
     try:
-        with open('sample_students.txt', encoding='utf-8') as file:
+        with open(json_file, 'r', encoding='utf-8') as file:
+            data = json.load(file)
 
-            for line in file:
-                parts = line.strip().split(';')
-
-                if len(parts) == 3:
-
-                    student_id = int(parts[0])
-                    first_name = parts[1]
-                    last_name = parts[2]
-
-                    students.append(Student(student_id, first_name, last_name))
-
+            for item in data:
+                students.append(Student(
+                    id=item['id'],
+                    first_name=item['first_name'],
+                    last_name=item['last_name'],
+                    borrowed_books=item.get('borrowed_books', [])
+                ))
     except FileNotFoundError:
-        print('File not found')
+        print("Plik nie istnieje. Zostanie utworzony nowy przy zapisie.")
+
+    except json.JSONDecodeError:
+        print("Błąd w formacie JSON.")
 
     return students
 
 
-def save_students_to_file(student: Student):
-    with open('sample_students.txt', 'a', encoding='utf-8') as file:
-        file.write(f"{student.id};{student.first_name};{student.last_name}\n")
+def save_students_to_file(students: List[Student], json_file='sample_students.json'):
+    with open(json_file, 'w', encoding='utf-8') as file:
+        json.dump([asdict(student) for student in students], file, indent=4, ensure_ascii=False)
 
 
-def get_next_student_id(students):
+def get_next_student_id(students: List[Student]):
     if not students:
         return 1
     return max(student.id for student in students) + 1

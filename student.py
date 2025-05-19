@@ -8,4 +8,4 @@ class Student():
     id: int
     first_name: str
     last_name: str
-    borrowed_books: List[Book] = field(default_factory=list)
+    borrowed_books: List[str] = field(default_factory=list)

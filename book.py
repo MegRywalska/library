@@ -10,3 +10,4 @@ class Book:
     pages: Union[int, str]
     total_copies: int
     available_copies: int
+

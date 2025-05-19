@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1ad3700-77c8-462f-aca7-b1fdef39b27c" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book_actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fetch_books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample_students.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student_actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student_file.py" afterDir="false" />
+    <list default="true" id="b1ad3700-77c8-462f-aca7-b1fdef39b27c" name="Changes" comment="Add files: &#10;book.py&#10;book_actions.py&#10;fetch_books.py&#10;library.py&#10;menu.py&#10;sample_students.txt&#10;student.py&#10;student_actions.py&#10;student_file.py&#10;&#10;Modified:&#10;main.py">
+      <change afterPath="$PROJECT_DIR$/book_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library_actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample_students.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/library.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample_students.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +54,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.fetch_books.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.fetch_books.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dokumenty/Studia/Programowanie w jezykach scryptowych - Python/library&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dokumenty\Studia\Programowanie w jezykach scryptowych - Python\library" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="fetch_books" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="library" />
@@ -140,7 +149,8 @@
       <updated>1747250930240</updated>
       <workItem from="1747250931303" duration="42000" />
       <workItem from="1747251021313" duration="4252000" />
-      <workItem from="1747500637651" duration="22596000" />
+      <workItem from="1747500637651" duration="30771000" />
+      <workItem from="1747677949069" duration="11565000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -150,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747252092018</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add files: &#10;book.py&#10;book_actions.py&#10;fetch_books.py&#10;library.py&#10;menu.py&#10;sample_students.txt&#10;student.py&#10;student_actions.py&#10;student_file.py&#10;&#10;Modified:&#10;main.py">
+      <option name="closed" value="true" />
+      <created>1747598297295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747598297295</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,10 +176,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Add files: &#10;book.py&#10;book_actions.py&#10;fetch_books.py&#10;library.py&#10;menu.py&#10;sample_students.txt&#10;student.py&#10;student_actions.py&#10;student_file.py&#10;&#10;Modified:&#10;main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add files: &#10;book.py&#10;book_actions.py&#10;fetch_books.py&#10;library.py&#10;menu.py&#10;sample_students.txt&#10;student.py&#10;student_actions.py&#10;student_file.py&#10;&#10;Modified:&#10;main.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/library$main.coverage" NAME="main Coverage Results" MODIFIED="1747597594275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/library$main.coverage" NAME="main Coverage Results" MODIFIED="1747689101919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/library$fetch_books.coverage" NAME="fetch_books Coverage Results" MODIFIED="1747507794031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

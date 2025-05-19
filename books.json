@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Lilith",
+        "author": "George MacDonald",
+        "release_date": "1895",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Sea Fairies",
+        "author": "L. Frank Baum",
+        "release_date": "1911",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Phoenix and the Carpet",
+        "author": "Edith Nesbit",
+        "release_date": "1903",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Enchanted Castle",
+        "author": "Edith Nesbit",
+        "release_date": "1907",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Carmilla",
+        "author": "Joseph Sheridan Le Fanu",
+        "release_date": "1871",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Peter Pan",
+        "author": "J. M. Barrie",
+        "release_date": "1911",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "release_date": "1897",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 4
+    },
+    {
+        "title": "Phantastes",
+        "author": "George MacDonald",
+        "release_date": "1850",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Book of Dragons",
+        "author": "Edith Nesbit",
+        "release_date": "1973",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "test",
+        "author": "mRyw",
+        "release_date": "test",
+        "pages": "100",
+        "total_copies": 5,
+        "available_copies": 5
+    }
+]

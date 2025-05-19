@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "first_name": "Anna",
+        "last_name": "Kowalska",
+        "borrowed_books": []
+    },
+    {
+        "id": 2,
+        "first_name": "Jan",
+        "last_name": "Nowak",
+        "borrowed_books": []
+    },
+    {
+        "id": 3,
+        "first_name": "Maria",
+        "last_name": "Wiśniewska",
+        "borrowed_books": []
+    },
+    {
+        "id": 4,
+        "first_name": "Tomasz",
+        "last_name": "Wójcik",
+        "borrowed_books": []
+    },
+    {
+        "id": 5,
+        "first_name": "Katarzyna",
+        "last_name": "Kamińska",
+        "borrowed_books": []
+    },
+    {
+        "id": 6,
+        "first_name": "Paweł",
+        "last_name": "Lewandowski",
+        "borrowed_books": []
+    },
+    {
+        "id": 7,
+        "first_name": "Agnieszka",
+        "last_name": "Zielińska",
+        "borrowed_books": []
+    },
+    {
+        "id": 8,
+        "first_name": "Michał",
+        "last_name": "Szymański",
+        "borrowed_books": [
+            "Dracula"
+        ]
+    },
+    {
+        "id": 9,
+        "first_name": "Ewa",
+        "last_name": "Dąbrowska",
+        "borrowed_books": []
+    },
+    {
+        "id": 10,
+        "first_name": "Krzysztof",
+        "last_name": "Woźniak",
+        "borrowed_books": []
+    }
+]

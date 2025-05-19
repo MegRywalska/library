@@ -2,10 +2,14 @@ from library import Library
 from student_file import load_students_from_file
 from fetch_books import get_books_from_api
 from menu import *
+from book_file import save_books_to_file,load_books_from_file
 
 def main():
 
-    books = get_books_from_api("fantasy", 10)
+    books = load_books_from_file()
+
+    if not books:
+        books = get_books_from_api("fantasy", 10)
 
     students = load_students_from_file()
     library = Library(books=books, students=students)
@@ -20,6 +24,7 @@ def main():
     #
 
     show_menu(library)
+    save_books_to_file(library.books)
 
 if __name__ == "__main__":
     main()
