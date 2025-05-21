@@ -1,5 +1,5 @@
 import requests
-from book import Book
+from Model.book import Book
 
 def get_books_from_api(query, limit):
 

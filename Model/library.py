@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import List
-from student import Student
-from book import Book
+from Model.student import Student
+from Model.book import Book
 
 @dataclass
 class Library:

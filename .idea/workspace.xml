@@ -4,20 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1ad3700-77c8-462f-aca7-b1fdef39b27c" name="Changes" comment="Add files: &#10;book.py&#10;book_actions.py&#10;fetch_books.py&#10;library.py&#10;menu.py&#10;sample_students.txt&#10;student.py&#10;student_actions.py&#10;student_file.py&#10;&#10;Modified:&#10;main.py">
-      <change afterPath="$PROJECT_DIR$/book_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library_actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample_students.json" afterDir="false" />
+    <list default="true" id="b1ad3700-77c8-462f-aca7-b1fdef39b27c" name="Changes" comment="Add borrow and return book action">
+      <change afterPath="$PROJECT_DIR$/Actions/borrow_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Actions/borrowedBookInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Actions/student_actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/File/student_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Actions/book_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/File/book_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/books.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetch_books.py" beforeDir="false" afterPath="$PROJECT_DIR$/File/fetch_books.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_students.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample_students.json" beforeDir="false" afterPath="$PROJECT_DIR$/sample_students.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_actions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_file.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,31 +60,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.fetch_books.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dokumenty/Studia/Programowanie w jezykach scryptowych - Python/library&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.fetch_books.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.menu.executor": "Run",
+    "Python.python main.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/Dokumenty/Studia/Programowanie w jezykach scryptowych - Python/library",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Dokumenty\Studia\Programowanie w jezykach scryptowych - Python\library" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dokumenty\Studia\Programowanie w jezykach scryptowych - Python\library" />
+      <recent name="D:\Dokumenty\Studia\Programowanie w jezykach scryptowych - Python\library\Actions" />
+      <recent name="D:\Dokumenty\Studia\Programowanie w jezykach scryptowych - Python\library\File" />
+      <recent name="D:\Dokumenty\Studia\Programowanie w jezykach scryptowych - Python\library\json" />
+      <recent name="D:\Dokumenty\Studia\Programowanie w jezykach scryptowych - Python\library\Model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.python main.py">
     <configuration name="fetch_books" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="library" />
       <option name="ENV_FILES" value="" />
@@ -93,7 +113,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fetch_books.py" />
+      <option name="SCRIPT_NAME" value="D:\Dokumenty\Studia\Programowanie w jezykach scryptowych - Python\library\File\fetch_books.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,9 +145,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="library" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/menu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python main.py" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="library" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python main.py" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.menu" />
         <item itemvalue="Python.fetch_books" />
       </list>
     </recent_temporary>
@@ -150,7 +218,8 @@
       <workItem from="1747250931303" duration="42000" />
       <workItem from="1747251021313" duration="4252000" />
       <workItem from="1747500637651" duration="30771000" />
-      <workItem from="1747677949069" duration="11565000" />
+      <workItem from="1747677949069" duration="12855000" />
+      <workItem from="1747848725286" duration="18736000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -168,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747598297295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add borrow and return book action">
+      <option name="closed" value="true" />
+      <created>1747691421683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747691421683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,10 +254,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add files: &#10;book.py&#10;book_actions.py&#10;fetch_books.py&#10;library.py&#10;menu.py&#10;sample_students.txt&#10;student.py&#10;student_actions.py&#10;student_file.py&#10;&#10;Modified:&#10;main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add files: &#10;book.py&#10;book_actions.py&#10;fetch_books.py&#10;library.py&#10;menu.py&#10;sample_students.txt&#10;student.py&#10;student_actions.py&#10;student_file.py&#10;&#10;Modified:&#10;main.py" />
+    <MESSAGE value="Add borrow and return book action" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add borrow and return book action" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Model/library.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/library$main.coverage" NAME="main Coverage Results" MODIFIED="1747689101919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/library$main.coverage" NAME="main Coverage Results" MODIFIED="1747866218970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/library$menu.coverage" NAME="menu Coverage Results" MODIFIED="1747862549310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/library$fetch_books.coverage" NAME="fetch_books Coverage Results" MODIFIED="1747507794031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/library$python_main_py.coverage" NAME="python main.py Coverage Results" MODIFIED="1747867433779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

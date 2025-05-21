@@ -1,7 +1,7 @@
-
-from student_actions import add_student_menu, search_student_by_first_name_menu, search_student_by_last_name_menu, \
+from Actions.borrow_report import generate_return_report
+from Actions.student_actions import add_student_menu, search_student_by_first_name_menu, search_student_by_last_name_menu, \
     show_students
-from book_actions import search_book_by_title_menu, search_book_by_author_menu, show_books, add_book, remove_book, \
+from Actions.book_actions import search_book_by_title_menu, search_book_by_author_menu, show_books, add_book, remove_book, \
     borrow_book, return_book
 
 
@@ -13,9 +13,10 @@ def show_menu(library):
         print("2. Menu zarzadzania książkami")
         print("3. Wypożycz książke")
         print("4. Zwróć książke")
+        print("5. Generuj raport zwrotu")
         print("0. Wyjdź")
 
-        choice = input("Wybierz opcję: ").strip()
+        choice = input("Wybierz opcję: \n").strip()
 
         match choice:
 
@@ -30,6 +31,9 @@ def show_menu(library):
 
             case "4":
                 return_book(library)
+
+            case "5":
+                generate_return_report(library)
 
             case "0":
                 print("Wyłaczono")
@@ -48,7 +52,7 @@ def show_student_menu(library):
         print("3. Wyszukaj studenta")
         print("0. Powrót do menu głównego")
 
-        choice = input("Wybierz opcję: ").strip()
+        choice = input("Wybierz opcję: \n").strip()
 
         match choice:
 
@@ -82,14 +86,14 @@ def show_book_menu(library):
         print("4. Usuń tytuł z zasobów biblioteki")
         print("0. Powrót do menu głównego")
 
-        choice = input("Wybierz opcję: ").strip()
+        choice = input("Wybierz opcję: \n").strip()
 
         match choice:
             case "1":
                 show_books(library)
 
             case "2":
-                find_students_menu(library)
+                find_books_menu(library)
 
             case "3":
                 add_book(library)

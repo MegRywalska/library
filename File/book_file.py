@@ -1,5 +1,5 @@
 import json
-from book import Book
+from Model.book import Book
 from typing import List
 
 def save_books_to_file(books: List[Book], file_name = "books.json"):

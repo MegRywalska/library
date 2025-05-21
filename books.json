@@ -53,7 +53,7 @@
         "release_date": "1897",
         "pages": "Unknown",
         "total_copies": 5,
-        "available_copies": 4
+        "available_copies": 5
     },
     {
         "title": "Phantastes",
@@ -72,10 +72,330 @@
         "available_copies": 5
     },
     {
-        "title": "test",
-        "author": "mRyw",
-        "release_date": "test",
-        "pages": "100",
+        "title": "The princess and the goblin",
+        "author": "George MacDonald",
+        "release_date": "1907",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "A Study of History",
+        "author": "Arnold J. Toynbee",
+        "release_date": "1900",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Enduring Vision",
+        "author": "Paul S. Boyer",
+        "release_date": "1987",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "A Brief History of Time",
+        "author": "Stephen Hawking",
+        "release_date": "1988",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "History",
+        "author": "Herodotus",
+        "release_date": "1494",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "History of the Decline and Fall of the Roman Empire Complete and Unabridged",
+        "author": "Edward Gibbon",
+        "release_date": "1776",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "History of the Peloponnesian War",
+        "author": "Thucydides",
+        "release_date": "1526",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Naturalis historia",
+        "author": "Pliny the Elder",
+        "release_date": "1469",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "David Copperfield",
+        "author": "Charles Dickens",
+        "release_date": "1800",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Story of Doctor Dolittle",
+        "author": "Hugh Lofting",
+        "release_date": "1920",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Plays (36)",
+        "author": "William Shakespeare",
+        "release_date": "1623",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Science Fiction Hall of Fame -- Volume One",
+        "author": "Robert Silverberg",
+        "release_date": "1970",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Foundation",
+        "author": "Isaac Asimov",
+        "release_date": "1951",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Last Man",
+        "author": "Mary Shelley",
+        "release_date": "1826",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Time Machine",
+        "author": "H. G. Wells",
+        "release_date": "1895",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Invisible Man",
+        "author": "H. G. Wells",
+        "release_date": "0",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "release_date": "1965",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Мы",
+        "author": "Евгений Иванович Замятин",
+        "release_date": "1924",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Great Sf Heinlein Bxs",
+        "author": "Robert A. Heinlein",
+        "release_date": "1980",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Cryptonomicon",
+        "author": "Neal Stephenson",
+        "release_date": "1999",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The War of the Worlds",
+        "author": "H. G. Wells",
+        "release_date": "0",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Flatland",
+        "author": "Edwin Abbott Abbott",
+        "release_date": "1884",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Phantastes",
+        "author": "George MacDonald",
+        "release_date": "1850",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Lilith",
+        "author": "George MacDonald",
+        "release_date": "1895",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Blithedale Romance",
+        "author": "Nathaniel Hawthorne",
+        "release_date": "1852",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Pygmalion",
+        "author": "George Bernard Shaw",
+        "release_date": "1912",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Ivanhoe",
+        "author": "Sir Walter Scott",
+        "release_date": "1800",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Moonstone",
+        "author": "Wilkie Collins",
+        "release_date": "1868",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Tender is the Night",
+        "author": "F. Scott Fitzgerald",
+        "release_date": "1933",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Scarlet Letter",
+        "author": "Nathaniel Hawthorne",
+        "release_date": "1850",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Invisible Man",
+        "author": "H. G. Wells",
+        "release_date": "0",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "release_date": "1897",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Jewel of Seven Stars",
+        "author": "Bram Stoker",
+        "release_date": "1902",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The King in Yellow",
+        "author": "Robert W. Chambers",
+        "release_date": "1895",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Carmilla",
+        "author": "Joseph Sheridan Le Fanu",
+        "release_date": "1871",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Great God Pan",
+        "author": "Arthur Machen",
+        "release_date": "1894",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Frankenstein or The Modern Prometheus",
+        "author": "Mary Shelley",
+        "release_date": "1818",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Carrie",
+        "author": "Stephen King",
+        "release_date": "1974",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Flatland",
+        "author": "Edwin Abbott Abbott",
+        "release_date": "1884",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "The Power of Darkness",
+        "author": "Edith Nesbit",
+        "release_date": "2006",
+        "pages": "Unknown",
+        "total_copies": 5,
+        "available_copies": 5
+    },
+    {
+        "title": "Northanger Abbey",
+        "author": "Jane Austen",
+        "release_date": "1818",
+        "pages": "Unknown",
         "total_copies": 5,
         "available_copies": 5
     }
