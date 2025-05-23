@@ -126,7 +126,7 @@ def choose_book_from_list_by_title(books):
 
     while True:
         try:
-            title = input("Wpisz dokładny tytuł książki lub zero by się cofnać: ").strip()
+            title = input("By wybrać książke wpisz jej dokładny tytuł. Aby wyszukać ponownie wybierz zero: ").strip()
 
             if title == "0":
                 return None
@@ -153,9 +153,9 @@ def borrow_book(library):
             if selected_student:
                 break
         else:
-            choice = input("Nie znaleziono studentów o takim nazwisku. Aby zakończyć wybierz zero: ")
-            if choice == "0":
-                return
+            print("Nie znaleziono studentów o takim nazwisku.")
+            return
+
 
     while True:
         title = input("Podaj tytuł książki: ").strip()
@@ -222,9 +222,8 @@ def return_book(library):
             if selected_student:
                 break
         else:
-            choice = input("Nie znaleziono studentów o takim nazwisku. Aby zakończyć wybierz zero: ")
-            if choice == "0":
-                return
+            print("Nie znaleziono studentów o takim nazwisku.")
+            return
 
     if not selected_student.borrowed_books:
         print("Ten student nie ma wypożyczonych książek.")

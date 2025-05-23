@@ -19,13 +19,13 @@ def add_student_menu(library):
 def show_students(library):
     for student in library.students:
         print(f"Student ID: {student.id}: {student.first_name} {student.last_name}")
-        print("Wypożyczone książki:")
+        print("Wypożyczone książki:\n")
 
         if student.borrowed_books:
             for book in student.borrowed_books:
                 print(f"""Tytuł: {book.title} | Autor: {book.author}
-                Data wypożyczenia: {book.borrowed_date}
-    --------------------------------------------------------""")
+                Data wypożyczenia: {book.borrowed_date}""")
+                print("--------------------------------------------------------")
         else:
             print("Brak wypożyczonych książek.")
             print("--------------------------------------------------------")
@@ -41,7 +41,7 @@ def search_student_by_first_name_menu(library):
 
         for student in found:
             print(f"Student ID: {student.id}: {student.first_name} {student.last_name}")
-            print("Wypożyczone książki:")
+            print("Wypożyczone książki:\n")
 
             if student.borrowed_books:
                 for book in student.borrowed_books:
@@ -65,7 +65,7 @@ def search_student_by_last_name_menu(library):
 
         for student in found:
             print(f"Student ID: {student.id}: {student.first_name} {student.last_name}")
-            print("Wypożyczone książki:")
+            print("Wypożyczone książki:\n")
 
             if student.borrowed_books:
                 for book in student.borrowed_books:
@@ -87,11 +87,7 @@ def choose_student_from_list(students):
 
     while True:
         try:
-            choice = int(input("Wpisz ID by wybrać studenta lub zero by się cofnać: "))
-
-            if choice == 0:
-                return None
-
+            choice = int(input("Wpisz ID by wybrać studenta: "))
             for student in students:
                 if student.id == choice:
                     return student

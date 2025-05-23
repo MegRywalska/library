@@ -5,7 +5,7 @@
         "release_date": "1895",
         "pages": "Unknown",
         "total_copies": 5,
-        "available_copies": 5
+        "available_copies": 4
     },
     {
         "title": "The Sea Fairies",
@@ -45,7 +45,7 @@
         "release_date": "1911",
         "pages": "Unknown",
         "total_copies": 5,
-        "available_copies": 5
+        "available_copies": 4
     },
     {
         "title": "Dracula",
@@ -53,7 +53,7 @@
         "release_date": "1897",
         "pages": "Unknown",
         "total_copies": 5,
-        "available_copies": 5
+        "available_copies": 4
     },
     {
         "title": "Phantastes",
@@ -133,7 +133,7 @@
         "release_date": "1469",
         "pages": "Unknown",
         "total_copies": 5,
-        "available_copies": 5
+        "available_copies": 4
     },
     {
         "title": "David Copperfield",
@@ -165,7 +165,7 @@
         "release_date": "1970",
         "pages": "Unknown",
         "total_copies": 5,
-        "available_copies": 5
+        "available_copies": 4
     },
     {
         "title": "Foundation",
@@ -256,14 +256,6 @@
         "available_copies": 5
     },
     {
-        "title": "Lilith",
-        "author": "George MacDonald",
-        "release_date": "1895",
-        "pages": "Unknown",
-        "total_copies": 5,
-        "available_copies": 5
-    },
-    {
         "title": "The Blithedale Romance",
         "author": "Nathaniel Hawthorne",
         "release_date": "1852",
@@ -301,7 +293,7 @@
         "release_date": "1933",
         "pages": "Unknown",
         "total_copies": 5,
-        "available_copies": 5
+        "available_copies": 4
     },
     {
         "title": "The Scarlet Letter",
@@ -315,14 +307,6 @@
         "title": "The Invisible Man",
         "author": "H. G. Wells",
         "release_date": "0",
-        "pages": "Unknown",
-        "total_copies": 5,
-        "available_copies": 5
-    },
-    {
-        "title": "Dracula",
-        "author": "Bram Stoker",
-        "release_date": "1897",
         "pages": "Unknown",
         "total_copies": 5,
         "available_copies": 5

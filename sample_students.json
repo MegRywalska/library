@@ -3,7 +3,13 @@
         "id": 1,
         "first_name": "Anna",
         "last_name": "Kowalska",
-        "borrowed_books": []
+        "borrowed_books": [
+            {
+                "title": "The Sea Fairies",
+                "author": "L. Frank Baum",
+                "borrowed_date": "2025-05-23"
+            }
+        ]
     },
     {
         "id": 2,
@@ -21,7 +27,13 @@
         "id": 4,
         "first_name": "Tomasz",
         "last_name": "Mazur",
-        "borrowed_books": []
+        "borrowed_books": [
+            {
+                "title": "Peter Pan",
+                "author": "J. M. Barrie",
+                "borrowed_date": "2025-04-25"
+            }
+        ]
     },
     {
         "id": 5,
@@ -33,7 +45,13 @@
         "id": 6,
         "first_name": "Michał",
         "last_name": "Lewandowski",
-        "borrowed_books": []
+        "borrowed_books": [
+            {
+                "title": "Naturalis historia",
+                "author": "Pliny the Elder",
+                "borrowed_date": "2025-05-23"
+            }
+        ]
     },
     {
         "id": 7,
@@ -45,7 +63,13 @@
         "id": 8,
         "first_name": "Paweł",
         "last_name": "Zieliński",
-        "borrowed_books": []
+        "borrowed_books": [
+            {
+                "title": "The Science Fiction Hall of Fame -- Volume One",
+                "author": "Robert Silverberg",
+                "borrowed_date": "2025-04-29"
+            }
+        ]
     },
     {
         "id": 9,
@@ -63,6 +87,44 @@
         "id": 11,
         "first_name": "Małgorzata",
         "last_name": "Rywalska",
-        "borrowed_books": []
+        "borrowed_books": [
+            {
+                "title": "Tender is the Night",
+                "author": "F. Scott Fitzgerald",
+                "borrowed_date": "2025-05-23"
+            },
+            {
+                "title": "Cryptonomicon",
+                "author": "Neal Stephenson",
+                "borrowed_date": "2025-04-30"
+            },
+            {
+                "title": "The War of the Worlds",
+                "author": "H. G. Wells",
+                "borrowed_date": "2025-05-23"
+            },
+            {
+                "title": "The Scarlet Letter",
+                "author": "Nathaniel Hawthorne",
+                "borrowed_date": "2025-04-29"
+            },
+            {
+                "title": "The Invisible Man",
+                "author": "H. G. Wells",
+                "borrowed_date": "2025-05-01"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "first_name": "Mateusz",
+        "last_name": "Rywalski",
+        "borrowed_books": [
+            {
+                "title": "Lilith",
+                "author": "George MacDonald",
+                "borrowed_date": "2025-05-23"
+            }
+        ]
     }
 ]

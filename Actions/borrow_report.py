@@ -4,7 +4,7 @@ from datetime import date
 def generate_return_report(library):
 
     today = date.today()
-    print("\n PRZYPOMNIENIE O TERMINACH ZWROTU KSIAŻEK")
+    print("\n=== PRZYPOMNIENIE O TERMINACH ZWROTU KSIAŻEK ===\n")
 
     reminder_found = False
 
@@ -15,9 +15,11 @@ def generate_return_report(library):
 
             if 0 < days_remaining <= 7 or days_remaining == 0:
                 reminder_found = True
-                print(f"{student.id}, {student.first_name} {student.last_name}: ")
+                print(f"Student ID: {student.id}, {student.first_name} {student.last_name}: ")
                 print(f"Książka: {borrowed_book.title} - {borrowed_book.author}")
                 print(f"Pozostało dni do oddania: {days_remaining if days_remaining >= 0 else 0}")
+                print("--------------------------------------------------------\n")
+
 
     if not reminder_found:
         print("W najbliższym czasie na ma żadnego terminu zwrotu")
